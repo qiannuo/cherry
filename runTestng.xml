@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="2" parallel="methods">
+  <test name="Selenium_Chapter1">
+    <classes>
+      <class name="com.zgy.day3.GridTest">
+        <methods>
+          <include name="testGrid3"/>
+        </methods>
+      </class> <!-- com.zgy.day3.GridTest -->
+    </classes>
+  </test> <!-- Selenium_Chapter1 -->
+</suite> <!-- Default Suite -->
